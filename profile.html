@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Create Your Profile</h1>
+    <form id="profileForm">
+      <input type="text" id="name" placeholder="Name" required><br>
+      <input type="date" id="birthday" required><br>
+      <textarea id="bio" placeholder="Bio or About Me" required></textarea><br>
+      <input type="text" id="quote" placeholder="Favorite Quote" required><br>
+      <input type="file" id="profilePic" accept="image/*" required><br><br>
+      <button type="button" id="createBtn">Create Profile</button>
+    </form>
+  </div>
+
+  <audio id="clickSound" src="monkey.wav"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

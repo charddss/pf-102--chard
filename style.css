@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    background: linear-gradient(rgb(6, 236, 6),rgb(13, 137, 238));
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    color: white;
+  }
+  
+  input, textarea {
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #tweetsContainer {
+    margin: 20px auto;
+    width: 50%;
+    max-height: 120px;
+    overflow-y: scroll;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .tweet {
+    background: #0066c5;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .heart {
+    color: gray;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+  }
+  
+  #profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #061ce2;
+    margin-bottom: 10px;
+  }
+  
+  #profile h2 {
+    margin: 10px 0 5px;
+  }
+  
